@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Rubik+Iso&display=swap');
+
+:root {
+    --background-color: #212121;
+    --purple: rgb(197, 114, 233);
+    --violet: rgb(170, 120, 255);
+    --pink: rgb(244, 143, 177);
+    --light: white;
+}
