@@ -1,0 +1,64 @@
+.about_us {
+    width: 100%;
+}
+
+.about_us_header {
+    text-decoration: underline;
+}
+
+.tutors {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.tutor_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+
+    background-color: var(--purple);
+    border-radius: 10px;
+}
+.tutor_card ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tutor_img {
+    min-width: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    margin-right: 15px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#eli {
+    background-image: url("../imgs/SteelmanPhotographers-93\ Eli\ Zoomed\ out.png");
+}
+#ishan {
+    background-image: url("../imgs/ishan_kinikar.jpeg");
+}
+#allison {
+    background-image: url("../imgs/allison.png");
+}
+
+@media (max-width: 600px) {
+    .tutor_card {
+        flex-direction: column;
+    }
+}
+@media (max-width: 800px) {
+    .about_us_header {
+        text-indent: 10px;
+    }
+}

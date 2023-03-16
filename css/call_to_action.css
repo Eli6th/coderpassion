@@ -1,0 +1,35 @@
+.call_to_action {
+    width: clamp(280px, 100%, 800px);
+    border-radius: 10px;
+
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(
+        to right,
+        var(--purple),
+        var(--violet),
+        var(--pink),
+        var(--purple)
+    );
+    background-size: 200%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.call_to_action > h1 {
+    text-indent: 10px;
+}
+.call_to_action > h1 > a {
+    text-decoration: none;
+    color: var(--light);
+}
+
+.img_call_to_action {
+    width: 80px;
+    height: 100%;
+
+    background-image: url("../imgs/pop_out.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

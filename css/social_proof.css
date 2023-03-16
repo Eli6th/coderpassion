@@ -1,0 +1,18 @@
+.social_proof {
+    padding: 0px 15px;
+
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.quote {
+    font-size: 25px;
+
+    border-left: 3px solid var(--light);
+    padding-left: 15px;
+
+    margin-top: 10px;
+}
+.quote_author {
+    font-size: 20px;
+}
