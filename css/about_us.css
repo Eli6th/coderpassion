@@ -51,6 +51,9 @@
 #allison {
     background-image: url("../imgs/allison.png");
 }
+#cassidy {
+    background-image: url("../imgs/cassidy.png");
+}
 
 @media (max-width: 600px) {
     .tutor_card {
