@@ -17,9 +17,14 @@
     <link href="css/root.css" rel="stylesheet" type="text/css" />
     <link href="css/nav.css" rel="stylesheet" type="text/css" />
     <link href="css/hero.css" rel="stylesheet" type="text/css" />
+    <link href="css/pitch.css" rel="stylesheet" type="text/css" />
+    <link href="css/social_proof.css" rel="stylesheet" type="text/css" />
+    <link href="css/about_us.css" rel="stylesheet" type="text/css" />
+    <link href="css/call_to_action.css" rel="stylesheet" type="text/css" />
+    <link href="css/footer.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div class="navbar-area">
+    <div id="top" class="navbar-area">
         <div class="container">
             <nav class="site-navbar">
                 <!-- site logo -->
@@ -29,9 +34,9 @@
 
                 <!-- site menu/nav -->
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#about_us">About Us</a></li>
+                    <li><a href="https://forms.gle/ws7CGcb8cnFgzns29">Get Started</a></li>
                 </ul>
 
                 <!-- nav-toggler for mobile version only -->
@@ -40,38 +45,126 @@
                 </button>
             </nav>
         </div>
-    </div><!-- navbar-area end -->
+    </div>
 
-    <!-- <div class="nav-container">
-        <a id="company-title" class="header" href="#!">
-            CoderPassion.com
-        </a>
-        <nav>
-            <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
-            <ul class="nav-list">
-                <li>
-                    <a href="#!">Home</a>
-                </li>
-                <li>
-                    <a href="#!">About Us</a>
-                </li>
-                <li>
-                    <a href="#!">Sign Up</a>
-                </li>
-            </ul>
-        </nav>
-    </div> -->
-
-    <div class="hero">
+    <div class="hero section_wrapper">
         <h1 class="header">Learn To Code With  
             <span class="magic">Passion!</span>
         </h1>
-        <h4 class="small-header">A comprehensive, fun, project based approach to learning the fundamental skills to code in Python.</h4>
+        <h4 class="small-header">A 10 week, comprehensive, fun, project-based approach to learning the fundamental skills to code in Python.</h4>
         <div class="section">
-            <a href="google.com" class="call-to-action">
+            <a href="https://forms.gle/ws7CGcb8cnFgzns29" class="call-to-action">
                 Get Started
             </a>
             <a href="google.com" class="learn_more">Learn More</a>
+        </div>
+    </div>
+
+    <div class="section_wrapper">
+        <div class="line"></div>
+        <h2 style="text-align: center; box-sizing: border-box; padding: 10px;">Embark on a coding adventure with our 10 week curriculum! Set up your coding environment, master loops, create calculators, games, and to-do list apps. Learn recursion, classes, file handling, and design your very own video game! Unleash your inner coder and join the fun!</h2>
+        <div class="line"></div>
+    </div>
+
+    <div class="pitch section_wrapper">
+        <!-- <img src="splash-g1b3669cac_640.png" class="background_image"> -->
+        <div class="description">
+            <h2 class="pitch-header">🚀 Why CoderPassion?</h2>
+            <p class="pitch_description">
+                At CoderPassion, we're committed to providing your child with the best possible start in the programming universe. Our project-based curriculum will ignite the passion for coding in no time. With a fun, hands-on approach we teach students the skills to see, address, and execute on the problems they want to tackle. Leaving them with limitless opportunities to learn and grow!
+            </p>
+        </div>
+
+        <div class="description">
+            <h2 class="pitch-header">💡 Mastering Python</h2>
+            <p>
+                Our 10 week curriculum focuses on teaching Python, the fastest-growing programming language, which fuels countless industries, from tech titans to revolutionary scientific breakthroughs. By mastering Python, your child will be in the express lane to an accomplished and rewarding career, whatever their chosen field.
+            </p>
+        </div>
+
+        <div class="description">
+            <h2 class="pitch-header">🌟 Customized Learning</h2>
+            <p>
+                At CoderPassion, we acknowledge the uniqueness of each child. That's why our instructors adapt every lesson to fit your child's specific learning style, ensuring they achieve their maximum potential.
+            </p>
+        </div>
+
+        <div class="description">
+            <h2 class="pitch-header">🕰️ Sign-Up By <span class="magic">March 20th</h2>
+            <p>
+                The future starts today! Our course and tutors will only be available to sign up until March 20th! So sign up quickly to ensure your spot amongst our students.
+            </p>
+        </div>
+    </div>
+
+    <div id="about_us" class="about_us section_wrapper">
+        <h1 class="magic about_us_header">Meet Our Team</h1>
+        <div class="tutors">
+            <div class="tutor_card">
+                <img id="eli" class="tutor_img" />
+                <div class="tutor_text">
+                    <h3>Eli Olcott - Head of CoderPassion.com</h3>
+                    <p>
+                        I’ve done computer science for five years now. I will continue to study computer science and philosophy when I attend to Harvard next year. 
+                        I’ve finished LHS’s computer science curriculum: Intro to C++, AP Computer Science A (5 on the AP test), and Advanced Computer Programming.
+                    </p>
+                </div>
+            </div>
+
+            <div class="tutor_card">
+                <img id="allison" class="tutor_img" />
+                <div class="tutor_text">
+                    <h3>Allison Haris - Tutor</h3>
+                    <p>
+                        I've done 
+                    </p>
+                </div>
+            </div>
+
+            <div class="tutor_card">
+                <img id="ishan" class="tutor_img" />
+                <div class="tutor_text">
+                    <h3>Ishan Kinikar - Tutor</h3>
+                    <p>
+                        I code frequently in Python and Java with special interest in deep learning and cybersecurity. In school, I have done Intro to C++, AP Comsputer Science A (5 on the AP test). I plan on studying some combination of computer science and applied matehmatics in college.
+                    </p>
+                </div>
+            </div>
+
+            <div class="tutor_card">
+                <img class="tutor_img" />
+                <div class="tutor_text">
+                    <h3>Cassidy Xu - Tutor</h3>
+                    <p>
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="social_proof section_wrapper">
+        <h1>Recommended And Trusted</h1>
+        <p class="quote">
+            "[They] keep me informed of the lesson plans and my son’s progress. [They] also assign homework. My son has thoroughly enjoyed the hours spent with [them] and learning to code." - Nicole
+        </p>
+        <p class="quote">
+            "[My son] is having so much fun and he learns a lot!" - Seewon
+        </p>
+    </div>
+
+    <div class="call_to_action section_wrapper">
+        <h1><a href="https://forms.gle/ws7CGcb8cnFgzns29">Get Started Here</a></h1>
+        <a class="img_call_to_action" href="https://forms.gle/ws7CGcb8cnFgzns29"></a>
+    </div>
+
+    <div class="footer section_wrapper">
+        <div class="line"></div>
+        <div>
+            CoderPassion.com
+        </div>
+        <div id="copyright">
+            &copy; All Rights Reserved 2023
         </div>
     </div>
 </body>

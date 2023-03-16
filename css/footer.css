@@ -1,0 +1,13 @@
+.line {
+    width: 100%;
+    border: 1px solid var(--purple);
+    margin-bottom: 20px;
+}
+
+.footer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}

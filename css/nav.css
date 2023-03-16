@@ -19,9 +19,6 @@ nav {
 
 /* Normal Navbar */
 .navbar-area {
-    /* background: rgba(0,0,0,.6); */
-    /* border-bottom: 1px solid #000; */
-
     max-width: 800px;
     width: 100%;
 }
@@ -91,7 +88,7 @@ a.site-logo {
 }
 
 /* Media Query */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
     .container {
         max-width: 720px;
     }

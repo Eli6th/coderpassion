@@ -1,17 +1,3 @@
-/* General */
-html, body {
-    height: 100%;
-    margin: 0;
-}
-body {
-    background-color: var(--background-color);
-    font-family: "Karla", sans-serif;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 /* Structures */
 .section {
     width: 100%;
@@ -25,9 +11,8 @@ body {
 
 /* Hero Section */
 .hero {
-    height: 80%;
+    min-height: 600px;
     max-width: 800px;
-    width: calc(100%-20px);
 
     padding: 20px;
 
@@ -35,6 +20,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    border: 1px solid white;
+
+    border-radius: 10px;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+
+    background-image: url("../imgs/old_computer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header {
@@ -45,7 +41,7 @@ body {
     padding: 20px;
     text-align: center;
 }
-h1 > .magic {
+.magic {
     animation: background-pan 3s linear infinite;
     background: linear-gradient(
         to right,
@@ -75,13 +71,16 @@ h1 > .magic {
     text-decoration: none;
     
     font-size: clamp(1em, 2vw, 2em);
+
+    transition: ease-in 0.2s;
 }
 .call-to-action:hover {
-    color: var(--purple);
     text-decoration: underline;
     border: 1px solid var(--light);
     border-radius: 20px;
     padding: 10px 20px;
+
+    background-color: var(--violet);
 }
 .learn_more {
     color: var(--light);

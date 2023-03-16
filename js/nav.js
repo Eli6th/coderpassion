@@ -3,6 +3,8 @@ const navToggler = document.querySelector('.nav-toggler');
 const navMenu = document.querySelector('.site-navbar ul');
 const navLinks = document.querySelectorAll('.site-navbar a');
 
+var is_open = false;
+
 // load all event listners
 allEventListners();
 
@@ -16,14 +18,22 @@ function allEventListners() {
 
 // togglerClick function
 function togglerClick() {
-    console.log("Hello!");
     navToggler.classList.toggle('toggler-open');
     navMenu.classList.toggle('open');
+
+    if (is_open) {
+        document.body.style.overflow = "visible";
+        is_open = false;
+    } else {
+        document.body.style.overflow = "hidden";
+        is_open = true;
+    }
 }
 
 // navLinkClick function
 function navLinkClick() {
     if(navMenu.classList.contains('open')) {
         navToggler.click();
+        document.body.style.overflow = "visible";
     }
 }
