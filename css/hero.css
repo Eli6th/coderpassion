@@ -80,7 +80,7 @@
     border-radius: 20px;
     padding: 10px 20px;
 
-    background-color: var(--violet);
+    /* background-color: var(--violet); */
 }
 .learn_more {
     color: var(--light);

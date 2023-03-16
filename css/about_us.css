@@ -23,7 +23,7 @@
     padding: 10px;
     box-sizing: border-box;
 
-    background-color: var(--purple);
+    /* background-color: var(--purple); */
     border-radius: 10px;
 }
 .tutor_card ul {
@@ -50,6 +50,9 @@
 }
 #allison {
     background-image: url("../imgs/allison.png");
+}
+#cassidy {
+    background-image: url("../imgs/cassidy.png");
 }
 
 @media (max-width: 600px) {
