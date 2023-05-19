@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Rubik+Iso&display=swap');
 
 :root {
-    --background-color: #212121;
+    --background-color-light: #ffffff;
+    --background-color-dark: #212121;
     --dark-purple: rgb(52, 0, 75);
     --purple: rgb(197, 114, 233);
     --violet: rgb(170, 120, 255);
     --pink: rgb(244, 143, 177);
     --light: white;
+    --dark: #212121;
+
+    --xxl-text: 6em;
+    --xl-text: 4em;
+    --lg-text: 3em;
+    --md-text: 1.4em;
+    --sm-text: 1em;
 }
 
 /* General */
@@ -18,14 +26,18 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: var(--background-color);
+    background-color: var(--bg);
     font-family: "Karla", sans-serif;
+    font-size: var(--sm-text);
+    color: var(--text);
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
     box-sizing: border-box;
+
+    transition: ease-in 0.2s;
 }
 
 .highlight {
@@ -34,7 +46,8 @@ body {
 
 .section_wrapper {
     max-width: 800px;
-    color: var(--light);
+    color: var(--text);
 
     margin-bottom: 30px;
+    box-sizing: border-box;
 }

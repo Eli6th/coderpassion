@@ -11,7 +11,7 @@
 
 /* Hero Section */
 .hero {
-    min-height: 600px;
+    min-height: 700px;
     max-width: 800px;
 
     padding: 20px;
@@ -21,21 +21,26 @@
     justify-content: center;
     align-items: center;
 
-    border: 1px solid white;
+    border: 1px solid var(--text);
 
     border-radius: 10px;
 
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0,0,0,.6);
     background-blend-mode: multiply;
 
-    background-image: url("../imgs/old_computer.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+#main_page_hero {
+    background-image: url("../imgs/old_computer.png");
+}
+#summer_camp_hero {
+    background-image: url("../imgs/future.jpeg");
 }
 
 .header {
     color: var(--light);
-    font-size: clamp(3em, 4vw, 6em);
+    font-size: clamp(var(--lg-text), 4vw, var(--xxl-text));
     font-weight: 400;
     margin: 0px;
     padding: 20px;
@@ -58,7 +63,7 @@
 
 .small-header {
     color: var(--light);
-    font-size: clamp(1em, 2vw, 2em);
+    font-size: clamp(var(--md-text), 2vw, var(--lg-text));
     font-weight: 400;
     max-width: 600px;
 }
@@ -69,10 +74,9 @@
     border-radius: 20px;
     padding: 10px 20px;
     text-decoration: none;
+    text-align: center;
     
-    font-size: clamp(1em, 2vw, 2em);
-
-    transition: ease-in 0.2s;
+    font-size: clamp(var(--md-text), 2vw, var(--lg-text));
 }
 .call-to-action:hover {
     text-decoration: underline;
@@ -83,7 +87,7 @@
     /* background-color: var(--violet); */
 }
 .learn_more {
-    color: var(--light);
+    color: var(--text);
     padding-left: 30px;
     text-decoration: none;
 }
@@ -104,6 +108,6 @@
 /* Media Queries */
 @media (max-width: 600px) {
     .header {
-        font-size: clamp(2em, 3vw, 4em);
+        font-size: clamp(var(--lg-text), 3vw, var(--xl-text));
     }
 }

@@ -1,5 +1,33 @@
+.description_image {
+    background-color: rgba(0,0,0,.5);
+    background-blend-mode: multiply;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-origin: border-box;
+    background-repeat: no-repeat;
+
+    color: var(--light);
+    padding: 10px;
+
+    border-radius: 10px;
+}
+#chess {
+    background-image: url("../imgs/chess.jpeg");
+    background-position-y: -60px;
+}
+#adventure_game {
+    background-image: url("../imgs/game.jpeg");
+    background-position-y: -60px;
+}
+#scavenger_hunt {
+    background-image: url("../imgs/scavenger_hunt.jpeg");
+    background-position-y: -60px;
+}
+
 .pitch {
-    border: 1px solid var(--light);
+    border: 1px solid var(--text);
     border-radius: 20px;
 
     display: grid;
