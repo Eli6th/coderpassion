@@ -22,7 +22,7 @@
 }
 .call_to_action > h1 > a {
     text-decoration: none;
-    color: var(--light);
+    color: var(--text);
 }
 
 .img_call_to_action {
@@ -32,4 +32,12 @@
     background-image: url("../imgs/pop_out.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 100%;
+    justify-content: flex-start;
 }

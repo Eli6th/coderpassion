@@ -1,0 +1,13 @@
+.light {
+    --bg: var(--background-color-light);
+    --nav-bg: rgba(255, 255, 255,.75);
+    --text: var(--dark);
+    --highlight-1: var(--dark-purple);
+}
+  
+.dark {
+    --bg: var(--background-color-dark);
+    --nav-bg: rgba(0,0,0,.75);
+    --text: var(--light);
+    --highlight-1: var(--pink);
+}
