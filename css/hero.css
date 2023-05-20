@@ -11,7 +11,7 @@
 
 /* Hero Section */
 .hero {
-    min-height: 700px;
+    min-height: 725px;
     max-width: 800px;
 
     padding: 20px;
@@ -109,5 +109,12 @@
 @media (max-width: 600px) {
     .header {
         font-size: clamp(var(--lg-text), 3vw, var(--xl-text));
+    }
+}
+
+/* Media Queries */
+@media (max-width: 400px) {
+    .hero {
+        min-height: 900px;
     }
 }
