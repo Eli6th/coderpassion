@@ -12,7 +12,7 @@ nav {
     padding-left: 20px;
     float: left;
     line-height: 55px;
-    font-size: var(--md-text);
+    font-size: clamp(var(--md-text), var(--max-md-text));
 
     color: var(--text);
 }
