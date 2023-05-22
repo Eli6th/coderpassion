@@ -40,7 +40,7 @@
 
 .header {
     color: var(--light);
-    font-size: clamp(var(--lg-text), 4vw, var(--xxl-text));
+    font-size: clamp(var(--lg-text), 4vw, var(--max-lg-text));
     font-weight: 400;
     margin: 0px;
     padding: 20px;
@@ -63,7 +63,7 @@
 
 .small-header {
     color: var(--light);
-    font-size: clamp(var(--md-text), 2vw, var(--lg-text));
+    font-size: clamp(var(--md-text), 2vw, var(--max-md-text));
     font-weight: 400;
     max-width: 600px;
 }
