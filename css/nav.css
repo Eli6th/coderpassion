@@ -128,7 +128,7 @@ a.site-logo {
     }
     .site-navbar ul.open {
         max-height: 100vh;
-        overflow: visible;
+        overflow: hidden;
     }
     /* navbar css for mobile end */
 }
