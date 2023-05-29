@@ -11,7 +11,7 @@
 
 /* Hero Section */
 .hero {
-    min-height: 800px;
+    min-height: 825px;
     max-width: 800px;
 
     padding: 20px;
@@ -135,6 +135,6 @@
     }
 
     .hero {
-        min-height: 800px;
+        min-height: 875px;
     }
 }
