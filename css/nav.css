@@ -13,7 +13,8 @@ nav {
     float: left;
     line-height: 55px;
     font-family: 'Rubik', sans-serif;
-    font-size: clamp(var(--md-text), 15px, var(--max-md-text));
+    font-size: clamp(var(--md-text), 25px, var(--max-md-text));
+    font-weight: 900;
 
     color: var(--text);
 }
