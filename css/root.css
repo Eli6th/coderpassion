@@ -12,9 +12,9 @@
 
     --max-lg-text: 45px;
     --max-md-text: 30px;
-    --xl-text: 4em;
-    --lg-text: 3em;
-    --md-text: 1.4em;
+    --xl-text: 3em;
+    --lg-text: 2em;
+    --md-text: 1.2em;
     --sm-text: 1em;
 }
 
@@ -43,6 +43,29 @@ body {
 
 .highlight {
     color: var(--violet);
+}
+
+.chips {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.chips a {
+    text-decoration: none;
+
+    color: var(--text);
+    text-align: center;
+    line-height: 100%;
+
+    padding: 10px;
+    border: 1px solid var(--text);
+    border-radius: 10px;
+
+    width: clamp(50px, 150px, 200px);
+}
+.chips a:hover {
+    text-decoration: underline;
 }
 
 .section_wrapper {

@@ -11,7 +11,7 @@
 
 /* Hero Section */
 .hero {
-    min-height: 725px;
+    min-height: 800px;
     max-width: 800px;
 
     padding: 20px;
@@ -25,7 +25,7 @@
 
     border-radius: 10px;
 
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,.7);
     background-blend-mode: multiply;
 
     background-repeat: no-repeat;
@@ -40,13 +40,13 @@
 
 .header {
     color: var(--light);
-    font-size: clamp(var(--lg-text), 4vw, var(--max-lg-text));
+    font-size: clamp(var(--lg-text), 3vw, var(--max-lg-text));
     font-weight: 400;
     margin: 0px;
     padding: 20px;
     text-align: center;
 }
-.magic {
+.dark .magic, .light-magic {
     animation: background-pan 3s linear infinite;
     background: linear-gradient(
         to right,
@@ -59,11 +59,26 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
+
+}
+.magic {
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(
+        to right,
+        var(--dark-purple),
+        var(--violet),
+        var(--purple),
+        var(--dark-purple)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
 }
 
 .small-header {
     color: var(--light);
-    font-size: clamp(var(--md-text), 2vw, var(--max-md-text));
+    font-size: clamp(var(--md-text), 1.5vw, var(--max-md-text));
     font-weight: 400;
     max-width: 600px;
 }
@@ -76,7 +91,7 @@
     text-decoration: none;
     text-align: center;
     
-    font-size: clamp(var(--md-text), 2vw, var(--lg-text));
+    font-size: clamp(var(--md-text), 1.5vw, var(--lg-text));
 }
 .call-to-action:hover {
     text-decoration: underline;
@@ -107,14 +122,19 @@
 
 /* Media Queries */
 @media (max-width: 600px) {
+
     .header {
         font-size: clamp(var(--lg-text), 3vw, var(--xl-text));
     }
 }
 
 /* Media Queries */
-@media (max-width: 400px) {
+@media (max-width: 450px) {
+    .header {
+        font-size: var(--lg-text);
+    }
+
     .hero {
-        min-height: 900px;
+        min-height: 800px;
     }
 }
