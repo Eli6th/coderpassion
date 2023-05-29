@@ -12,7 +12,8 @@ nav {
     padding-left: 20px;
     float: left;
     line-height: 55px;
-    font-size: clamp(var(--md-text), var(--max-md-text));
+    font-family: 'Rubik', sans-serif;
+    font-size: clamp(var(--md-text), 15px, var(--max-md-text));
 
     color: var(--text);
 }

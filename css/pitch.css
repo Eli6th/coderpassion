@@ -15,7 +15,7 @@
 }
 #chess {
     background-image: url("../imgs/chess.jpeg");
-    background-position-y: -60px;
+    background-position-y: -150px;
 }
 #adventure_game {
     background-image: url("../imgs/game.jpeg");
@@ -24,6 +24,9 @@
 #scavenger_hunt {
     background-image: url("../imgs/scavenger_hunt.jpeg");
     background-position-y: -60px;
+}
+#why_projects {
+    padding: 0px 10px;
 }
 
 .pitch {
@@ -36,6 +39,13 @@
     column-gap: 20px;
     
     padding: 20px;
+}
+
+.projects {
+    grid-template-columns: 1fr;
+}
+.projects .description {
+    padding: 60px 10px;
 }
 
 .background_image {
@@ -57,5 +67,14 @@
     .pitch {
         grid-template-columns: 1fr;
         margin: 10px;
+    }
+    #chess {
+        background-position-y: 0px;
+    }
+    #adventure_game {
+        background-position-y: 0px;
+    }
+    #scavenger_hunt {
+        background-position-y: 0px;
     }
 }

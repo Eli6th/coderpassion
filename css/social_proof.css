@@ -1,12 +1,14 @@
 .social_proof {
     padding: 0px 15px;
 
-    border: 1px solid var(--text);
+    /* border: 1px solid var(--text); */
     border-radius: 10px;
+
+    grid-column: span 2;
 }
 
 .quote {
-    font-size: var(--md-text);
+    font-size: var(--sm-text);
 
     border-left: 3px solid var(--text);
     padding-left: 15px;
@@ -14,5 +16,12 @@
     margin-top: 10px;
 }
 .quote_author {
-    font-size: var(--md-text);
+    font-size: var(--sm-text);
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+    .social_proof {
+        grid-column: span 1;
+    }
 }

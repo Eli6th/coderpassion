@@ -11,7 +11,7 @@
 
 /* Hero Section */
 .hero {
-    min-height: 725px;
+    min-height: 750px;
     max-width: 800px;
 
     padding: 20px;
@@ -25,7 +25,7 @@
 
     border-radius: 10px;
 
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,.7);
     background-blend-mode: multiply;
 
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@
     padding: 20px;
     text-align: center;
 }
-.magic {
+.dark .magic {
     animation: background-pan 3s linear infinite;
     background: linear-gradient(
         to right,
@@ -54,6 +54,21 @@
         var(--violet),
         var(--pink),
         var(--purple)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+
+}
+.magic {
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(
+        to right,
+        var(--dark-purple),
+        var(--violet),
+        var(--purple),
+        var(--dark-purple)
     );
     background-size: 200%;
     -webkit-background-clip: text;
@@ -113,7 +128,7 @@
 }
 
 /* Media Queries */
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .hero {
         min-height: 900px;
     }

@@ -10,7 +10,9 @@
     <link rel="icon" type="image/x-icon" href="./imgs/favicon.ico">
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=PT+Mono&display=swap" rel="stylesheet">
 
     <!-- Stylesheets -->
@@ -30,7 +32,7 @@
         <div class="container">
             <nav class="site-navbar">
                 <!-- site logo -->
-                <a id="company-title" class="header" href="/main_index.html">
+                <a id="company-title" class="header magic" href="/main_index.html">
                     CoderPassion.com
                 </a>
 
@@ -38,8 +40,8 @@
                 <ul>
                     <li><a href="/main_index.html">Tutoring</a></li>
                     <li><a href="/index.html" style="text-decoration: underline;">Summer Camp</a></li>
-                    <li><a href="https://forms.gle/1o6YFMFsLEtTGvbv6">Register</a></li>
-                    <li><a href="https://forms.gle/SALg7cWT79JYwXbj8">Contact Us</a></li>
+                    <li><a href="https://forms.gle/1o6YFMFsLEtTGvbv6">Contact Us</a></li>
+                    <!-- <li><a href="https://forms.gle/SALg7cWT79JYwXbj8">Contact Us</a></li> -->
                     <li><a id="theme_button" style="cursor:pointer;">Theme</a></li>
                 </ul>
 
@@ -55,7 +57,7 @@
         <h1 class="header">Join Our Summer Camp and Build With  
             <span class="magic">Passion!</span>
         </h1>
-        <h4 class="small-header">CoderPassion is offering an immersive coding experience for rising 6th-9th graders in Lexington like no other. Our Summer Coding Camp is designed to ignite your passion for coding through three thrilling projects.</h4>
+        <h4 class="small-header">CoderPassion is offering an immersive coding experience for rising 6th-9th graders in Lexington like no other. Our Summer Coding Camp is designed to ignite your passion for coding through three thrilling projects. No coding experience is required!</h4>
         <h4 class="small-header" style="margin: 0px 0px 0px 0px;">Two one week sessions to choose from!</h4>
         <h4 class="small-header" style="margin: 0px 0px 0px 0px;">July 3rd-7th or July 31st-August 4th</h4>
         <h4 class="small-header" style="margin: 0px 0px 40px 0px;">8am-12pm</h4>
@@ -67,17 +69,22 @@
         </div>
     </div>
 
-    <div class="section_wrapper">
+    <div class="chips section_wrapper">
+        <a href="#projects">The Projects</a>
+        <a href="#why_us">Why Us?</a>
+        <a href="#about_us">Meet The Team</a>
+    </div>
+
+    <div id="projects" class="section_wrapper" style="width: 100%; content: border-box;">
         <div class="line"></div>
-        <h2 style="text-align: center; box-sizing: border-box; padding: 10px;">Embark on an Unforgettable Coding Adventure!</h2>
-        <h3>This year, we're excited to present three unique projects designed to challenge your creativity and problem-solving skills.</h3>
+        <h2 style="text-align: center; box-sizing: border-box; padding: 10px;">Exciting Projects!</h2>
         <div class="line"></div>
     </div>
 
-    <div class="pitch section_wrapper" style="margin-top: -20px;">
+    <div class="projects pitch section_wrapper" style="margin-top: -20px;">
         <div id="chess" class="description description_image">
             <h2 class="pitch-header">♟️ Chess & Chess Bots</h2>
-            <p>An all-time classic, chess is the perfect platform to learn about game theory, AI, and more. At CoderPassion, we'll guide you through designing your own chess game and even take it a notch higher by creating your very own chess bot.</p>
+            <p>An all-time classic, chess is the perfect platform to learn about game theory, AI, and more. At CoderPassion, we'll guide each student through designing and creating their very own chess bot.</p>
         </div>
         <div id="adventure_game" class="description description_image">
             <h2 class="pitch-header">🎮 Adventure Game</h2>
@@ -87,13 +94,13 @@
             <h2 class="pitch-header">🔐 Encryption Scavenger Hunt</h2>
             <p>This innovative project intertwines cryptography and gamification, creating an exciting and educational experience. You'll code your own encryption algorithms, devise secret codes, and lead or participate in a digital scavenger hunt!</p>
         </div>
-        <div class="description">
+        <div id="why_projects" class="description">
             <h2 class="pitch-header">☝️ Why These Projects?</h2>
             <p>Each of these projects challenges students in different ways - strategic thinking with Chess, creativity and comprehensive programming with the Adventure Game, and problem-solving with the Encryption Scavenger Hunt. They allow for a well-rounded understanding of computer science, promoting both technical skills and innovative thinking.</p>
         </div>
     </div>
 
-    <div class="section_wrapper" style="width: 100%; content: border-box;">
+    <div id="why_us" class="section_wrapper" style="width: 100%; content: border-box;">
         <div class="line"></div>
         <h2 style="text-align: center; box-sizing: border-box; padding: 10px;">Why Us?</h2>
         <div class="line"></div>
@@ -127,6 +134,16 @@
                 The future starts today! Our summer camp will only be available to apply to until June 12th! So sign up quickly to ensure your spot amongst our students.
             </p>
         </div>
+
+        <div class="description social_proof section_wrapper">
+            <h1 class="pitch-header">Recommended And Trusted</h1>
+            <p class="quote">
+                "I would recommend [CoderPassion] because [they] are very fun and easy-going with [their] teaching. [They] have taught me a lot and makes the lessons all really fun and educational. [They are] obviously really passionate with coding as well and I think that [they are] an awesome teacher and would reccomend [them] if you are starting/already coding!" - Matthew
+            </p>
+            <p class="quote">
+                "[My son] is having so much fun and he learns a lot!" - Seewon
+            </p>
+        </div>
     </div>
 
     <div id="about_us" class="about_us section_wrapper">
@@ -153,16 +170,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="social_proof section_wrapper">
-        <h1 class="about_us_header">Recommended And Trusted</h1>
-        <p class="quote">
-            "I would recommend [CoderPassion] because [they] are very fun and easy-going with [their] teaching. [They] have taught me a lot and makes the lessons all really fun and educational. [They are] obviously really passionate with coding as well and I think that [they are] an awesome teacher and would reccomend [them] if you are starting/already coding!" - Matthew
-        </p>
-        <p class="quote">
-            "[My son] is having so much fun and he learns a lot!" - Seewon
-        </p>
     </div>
 
     <!-- <div class="call_to_action section_wrapper">
