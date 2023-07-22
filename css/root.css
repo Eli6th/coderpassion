@@ -45,6 +45,10 @@ body {
     color: var(--violet);
 }
 
+.link {
+    color: var(--light);
+}
+
 .chips {
     display: flex;
     flex-direction: row;

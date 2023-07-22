@@ -1,0 +1,28 @@
+#events {
+    border: 1px solid var(--text);
+}
+
+.event_wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.event {
+    padding: 15px;
+}
+
+#hackathon {
+    background-image: url(../imgs/hackathon_background.png);
+    background-position-y: -25px;
+}
+
+#coding-challenge {
+    background-image: url(../imgs/coding_challenge_background.png);
+    background-position-y: -60px;
+}
+
+#project-showcase {
+    background-image: url(../imgs/project_showcase_background.png);
+    background-position-y: -70px;
+}

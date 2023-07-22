@@ -8,8 +8,6 @@
 }
 
 .quote {
-    font-size: var(--sm-text);
-
     border-left: 3px solid var(--text);
     padding-left: 15px;
 
