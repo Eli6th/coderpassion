@@ -42,6 +42,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.tutor_img:not([src]) {
+    font-size: 0;
+    position: relative;
+}
 
 #eli {
     background-image: url("../imgs/SteelmanPhotographers-93\ Eli\ Zoomed\ out.png");
