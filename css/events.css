@@ -26,3 +26,15 @@
     background-image: url(../imgs/project_showcase_background.png);
     background-position-y: -70px;
 }
+
+.event_page_wrapper {
+    padding: 20px;
+}
+
+#event_page_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
