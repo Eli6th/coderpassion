@@ -29,6 +29,7 @@
 
 .event_page_wrapper {
     padding: 20px;
+    border-radius: 10px;
 }
 
 #event_page_header {
@@ -37,4 +38,15 @@
     align-items: center;
     text-align: center;
     padding: 20px;
+}
+
+#hackathon_event {
+    background-image: url(../imgs/4.png);
+}
+#coding_challenge_event {
+    background-image: url(../imgs/5.png);
+}
+#project_showcase_event {
+    background-image: url(../imgs/6.png);
+    background-position-y: -70px;
 }
